@@ -1,10 +1,10 @@
 # Terraform-Module-Wordpress-Installation-in-a-new-vpc
 
-To ensure the reusablity of code, we write the code in modules.
+To ensure the reusablity of code, I write the code in modules.
 
-This repository is for creating infra and deploying Wordpress in it using terraform. Here I have created 1 VPC with 3 Subnets: 2 Private and 1 Public, 1 NAT Gateways, 1 Internet Gateway, and 2 Route Tables via terraform.
+This repository is for creating infra and deploying Wordpress in it using terraform. Here I have coded 'vpc module' which creates 1 VPC with 3 Subnets: 2 Private and 1 Public, 1 NAT Gateways, 1 Internet Gateway, and 2 Route Tables via terraform.I have also coded sgroup module for creating security groups.
 
-There after we creates 3 instances - bastion,frontend and backend by terraform itself. Then Installed Wordpress on frontend and mariadb on backend instance. 
+There after I creates 3 instances - bastion,frontend and backend by terraform itself. Then Installed Wordpress on frontend and mariadb on backend instance. 
  
 Here I am using 3 servers:
 
